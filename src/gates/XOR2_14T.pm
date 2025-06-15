@@ -24,8 +24,8 @@ Mn5 	x3 		a 		o 		gnd 	NMOS 	w=70n 	L=32n
 Mn6 	x4 		a_neg 	o 		gnd 	NMOS 	w=70n 	L=32n
 
 * O_NEG
-Mp7 vdd o output_xor2_14t vdd PMOS w=105n L=32n
-Mn7 gnd o output_xor2_14t gnd NMOS w=70n L=32n
+Mp7 vdd o output vdd PMOS w=105n L=32n
+Mn7 gnd o output gnd NMOS w=70n L=32n
 
 * CAPACITOR
-Cload output_xor2_14t gnd 1f 
+Cload output gnd 1f 
